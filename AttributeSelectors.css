@@ -1,0 +1,10 @@
+/* ! [attribute] */
+[alt]{
+border: 10px solid red;
+}
+
+/* ! [attribute = value] */
+[alt="nature"]{
+height:100px;
+width:55px;
+}

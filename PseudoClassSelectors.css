@@ -1,0 +1,52 @@
+/*! :Hover */
+/* h1:hover{
+    color: brown;
+    background-color: bisque;
+ }   */
+
+/* :checked */
+input:checked+label{
+    color:brown;
+}
+
+/* ! :NOT */
+ul>li:not(.exclude){
+    color: white;
+    background-color: crimson;
+}
+
+/* ! :first-letter */
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+/* ! ::first-line */
+p::first-line{
+    color: white;
+    background-color: green;
+}
+/* ! :before */
+p::before{
+    content: "💀";
+}
+/* ! :after */
+p::after{
+    content: "😎";
+}
+/* ! ::selection */
+p::selection{
+    color: yellow;
+    background-color: green;
+}
+/* ! :marker */
+p::marker{
+    color: red;
+}
+/* ! :marker */
+li::marker{
+    content: "🔥";
+}
+/* ! :placeholder */
+input:placeholder{
+    color: red;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    border: 10px solid black;
+    height: 30px;
+    width: 300px;
+    background-color: red;
+
+    background-color: rgb(233, 120,150);
+    background-color: rgb(56, 86, 106);
+    background-color: rgb(126, 146, 186);
+    background-color: rgb(206, 106, 306);
+
+    background-color: rgba(rgb(92, 3, 3), rgb(179, 218, 179), rgb(146, 146, 207), 0.6);
+    background-color: rgba(1, 0.02, 0.4, 0.8);
+    background-color: #fff;
+    background-color: #ff00;
+    background-color: #ff0000;
+    background-color: #000;
+}

@@ -1,0 +1,21 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration-line: none;
+}
+p{
+    text-decoration-line: overline;
+    text-decoration-line: line-through;
+    text-decoration-line: underline;
+    text-decoration-line: 1px;
+    text-decoration-line: solid;
+    text-decoration-line:dashed;
+    text-decoration-line:dotted;
+    text-decoration-line:double;
+    text-decoration-line:wavy;
+    text-decoration-color: red;
+    text-decoration: underline 3px double hotpink;
+}
